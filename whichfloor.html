@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var maximum_floor = 30;
+      var office = prompt("Which floor is your office on? ");
+      var floor = parseInt(office);
+
+      while (floor < 30) {
+        console.log(floor + " is less than the amount of floors in the building. Try again.");
+        office = prompt("Which floor is your office on?");
+        floor = parseInt(office);
+  }
+          console.log(floor + " is the floor number your office in. Congrats!")
+
+    </script>
+
+  </body>
+</html>
